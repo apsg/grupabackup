@@ -64,7 +64,7 @@
                                         Pomożemy Ci znaleźć optymalne rozwiązanie.
                                     </p>
                                     <div class="button1">
-                                        <a href="#" onclick="openCP(event)">Skontaktuj się z Nami</a>
+                                        <a href="#kontakt" onclick="openCP(event)">Skontaktuj się z Nami</a>
                                     </div>
                                 </div>
                             </div>

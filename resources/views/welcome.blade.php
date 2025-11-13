@@ -7,7 +7,7 @@
         <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="images/turystyka.jpg" alt=""/>
+                    <img src="images/turystyka.webp" alt=""/>
                     <div class="flex-caption flex-caption1">
                         <div class="container">
                             <div class="row">
@@ -39,7 +39,7 @@
                                         Ubezpiecz swoje dzieci
                                     </h1>
                                     <p>
-                                        Szeroki zakres, wysoki sumy ubezpieczenia, 24h na całym świecie. <br/>
+                                        Szeroki zakres, wysokie sumy ubezpieczenia, 24h na całym świecie. <br/>
                                         Kup online lub skontaktuj się z nami a doradzimy w wyborze pakietu.
                                     </p>
                                     <div class="button1">

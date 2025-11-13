@@ -44,6 +44,7 @@ tabs
 @second-color3: #81858b;
 @second-color4: #5a5f68;
 @first-color-transparent: rgba(83, 174, 221, 0.8);
+@accent-color: #c5288f;
 
 /********* variables *********/
 .transition-none {
@@ -928,6 +929,33 @@ li.active {
     }
 }
 
+
+.nav > li > a.button1 {
+    span {
+        color: #ffffff;
+        background-color: @accent-color;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+}
+
+.accent-color-bg {
+    background-color: @accent-color !important;
+}
+
+.bg-gradient {
+    background-image: url("/images/gradient.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+@media screen and (max-width: 992px) {
+    .bg-gradient{
+        background-image: none;
+    }
+}
+
 /********* button end **********/
 
 /**************** top slider******************/
@@ -1164,6 +1192,17 @@ html[xmlns] .flexslider .slides {
     .flex-direction-nav .flex-next {
         opacity: 1;
         right: 10px;
+    }
+}
+
+.slides {
+    .row {
+        & > div {
+            p {
+                font-size: 16px !important;
+                font-weight: 500;
+            }
+        }
     }
 }
 
@@ -4231,14 +4270,14 @@ ul.insurance-list {
     height: 40px;
 }
 
-.icon-white{
+.icon-white {
     color: #fff;
     height: 28px;
     margin-bottom: 20px;
 
 }
 
-.career li{
+.career li {
     margin-bottom: 0px;
 }
 

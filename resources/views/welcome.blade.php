@@ -11,7 +11,7 @@
                     <div class="flex-caption flex-caption1">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-4 col-md-6">
+                                <div class="col-lg-4 col-md-6 bg-gradient">
                                     <h1>
                                         Najlepsze ubezpieczenia turystyczne
                                     </h1>
@@ -34,16 +34,17 @@
                     <div class="flex-caption flex-caption1">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-4 col-md-6 col-lg-push-8 col-md-push-6">
+                                <div class="col-lg-4 col-md-6 col-lg-push-8 col-md-push-6 bg-gradient">
                                     <h1>
                                         Ubezpiecz swoje dzieci
                                     </h1>
                                     <p>
-                                        Szeroki zakres, wysoki sumy ubezpieczenia, 24h na całym świecie. <br />
+                                        Szeroki zakres, wysoki sumy ubezpieczenia, 24h na całym świecie. <br/>
                                         Kup online lub skontaktuj się z nami a doradzimy w wyborze pakietu.
                                     </p>
                                     <div class="button1">
-                                        <a href="https://sklep.signal-iduna.pl/?ag_symbol=73098&RauNbr=11731870%2FP&product_code=PNL_NNWI_SZKOLNE" >Kup online</a>
+                                        <a href="https://sklep.signal-iduna.pl/?ag_symbol=73098&RauNbr=11731870%2FP&product_code=PNL_NNWI_SZKOLNE">Kup
+                                            online</a>
                                     </div>
                                 </div>
                             </div>
@@ -55,12 +56,13 @@
                     <div class="flex-caption flex-caption1">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-4 col-md-6 col-lg-push-8 col-md-push-6">
+                                <div class="col-lg-4 col-md-6 col-lg-push-8 col-md-push-6 bg-gradient">
                                     <h1>
                                         Zabezpiecz siebie i swoją rodzinę
                                     </h1>
                                     <p>
-                                        Zainwestuj w swoje bezpieczeństwo. Chroń siebie i swoich bliskich każdego dnia. <br />
+                                        Zainwestuj w swoje bezpieczeństwo. Chroń siebie i swoich bliskich każdego dnia.
+                                        <br/>
                                         Pomożemy Ci znaleźć optymalne rozwiązanie.
                                     </p>
                                     <div class="button1">
@@ -95,8 +97,13 @@
                     <div class="one-service color1">
                         <ul>
                             <li>
-                                <img src="images/icon-travel.png" alt="">
-                                <h3>Turystyka</h3>
+                                <div style="display: inline-block; float: left; margin-right: 15px;">
+                                    <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                        <path fill="currentColor"
+                                              d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3l0-84.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5l0 21.5c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-26.8C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112l32 0c24 0 46.2 7.5 64.4 20.3zM448 416l0-21.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176l32 0c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2l0 26.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3l0-84.7c-10 11.3-16 26.1-16 42.3zm144-42.3l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2l0 42.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-42.8c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112l32 0c61.9 0 112 50.1 112 112z"/>
+                                    </svg>
+                                </div>
+                                <h3>Grupowe</h3>
                                 <ul>
                                     <li>
                                         <p>
@@ -116,9 +123,10 @@
                         <ul>
                             <li>
                                 <div style="display: inline-block; float: left; margin-right: 15px;">
-                                    <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                    <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                        <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                         <path fill="currentColor"
-                                              d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3l0-84.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5l0 21.5c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-26.8C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112l32 0c24 0 46.2 7.5 64.4 20.3zM448 416l0-21.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176l32 0c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2l0 26.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3l0-84.7c-10 11.3-16 26.1-16 42.3zm144-42.3l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2l0 42.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-42.8c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112l32 0c61.9 0 112 50.1 112 112z"/>
+                                            d="M128 128C92.7 128 64 156.7 64 192L64 448C64 483.3 92.7 512 128 512L144 512L144 128L128 128zM192 128L192 512L448 512L448 128L192 128zM512 512C547.3 512 576 483.3 576 448L576 192C576 156.7 547.3 128 512 128L496 128L496 512L512 512zM288 248C288 239.2 295.2 232 304 232L336 232C344.8 232 352 239.2 352 248L352 288L392 288C400.8 288 408 295.2 408 304L408 336C408 344.8 400.8 352 392 352L352 352L352 392C352 400.8 344.8 408 336 408L304 408C295.2 408 288 400.8 288 392L288 352L248 352C239.2 352 232 344.8 232 336L232 304C232 295.2 239.2 288 248 288L288 288L288 248z"/>
                                     </svg>
                                 </div>
                                 <h3>Zdrowie</h3>
@@ -160,13 +168,8 @@
                     <div class="one-service color4">
                         <ul>
                             <li>
-                                <div style="display: inline-block; float: left; margin-right: 15px;">
-                                    <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                                        <path fill="currentColor"
-                                              d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3l0-84.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5l0 21.5c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-26.8C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112l32 0c24 0 46.2 7.5 64.4 20.3zM448 416l0-21.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176l32 0c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2l0 26.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3l0-84.7c-10 11.3-16 26.1-16 42.3zm144-42.3l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2l0 42.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-42.8c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112l32 0c61.9 0 112 50.1 112 112z"/>
-                                    </svg>
-                                </div>
-                                <h3>Grupowe</h3>
+                                <img src="images/icon-travel.png" alt="">
+                                <h3>Turystyka</h3>
                                 <ul>
                                     <li>
                                         <p>
@@ -244,28 +247,28 @@
         <div class="sectionwrapper" id="menu3"></div>
         <div class="container">
             <div class="row">
-{{--                <div class="col-md-6">--}}
-{{--                    <br>--}}
-{{--                    <h3>Powstaliśmy by wspierać firmy</h3>--}}
-{{--                    <br>--}}
-{{--                    <p>--}}
+                {{--                <div class="col-md-6">--}}
+                {{--                    <br>--}}
+                {{--                    <h3>Powstaliśmy by wspierać firmy</h3>--}}
+                {{--                    <br>--}}
+                {{--                    <p>--}}
 
-{{--                    </p>--}}
-{{--                    <ul class="ul-list">--}}
-{{--                        <li>--}}
-{{--                            <i class="fa fa-check"></i> Ne nec detracto appellantur--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <i class="fa fa-check"></i> Aperiam accusamus vel eu--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <i class="fa fa-check"></i> Nam albucius ponderum rationibu--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-6">--}}
-{{--                    <img src="images/about.png" alt="">--}}
-{{--                </div>--}}
+                {{--                    </p>--}}
+                {{--                    <ul class="ul-list">--}}
+                {{--                        <li>--}}
+                {{--                            <i class="fa fa-check"></i> Ne nec detracto appellantur--}}
+                {{--                        </li>--}}
+                {{--                        <li>--}}
+                {{--                            <i class="fa fa-check"></i> Aperiam accusamus vel eu--}}
+                {{--                        </li>--}}
+                {{--                        <li>--}}
+                {{--                            <i class="fa fa-check"></i> Nam albucius ponderum rationibu--}}
+                {{--                        </li>--}}
+                {{--                    </ul>--}}
+                {{--                </div>--}}
+                {{--                <div class="col-md-6">--}}
+                {{--                    <img src="images/about.png" alt="">--}}
+                {{--                </div>--}}
             </div>
         </div>
     </section>
@@ -282,8 +285,8 @@
                     <li><i class="fa fa-check"></i> dopasujemy zakres ubezpieczenia do Twojej firmy</li>
                     <li><i class="fa fa-check"></i> będziemy Cię wspierać przez cały okres umowy</li>
                 </ul>
-                <div class="button1" href="#kontakt">
-                    <a href="#kontakt">Prośba o darmową kwotację</a>
+                <div class="button1">
+                    <a href="{{ url('/zapytanie') }}" class="accent-color-bg">Prośba o darmową wycenę</a>
                 </div>
             </div>
         </div>

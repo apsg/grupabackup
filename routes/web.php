@@ -15,3 +15,7 @@ Route::get('/kariera', function () {
     return view('career');
 });
 
+Route::get('/zapytanie', function () {
+    return view('quotation');
+});
+

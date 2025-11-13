@@ -7,9 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -48,6 +48,9 @@
                                     <li><a href="#menu3">O nas</a></li>
                                     <li><a href="{{ url('/kariera') }}">Kariera</a></li>
                                     <li><a href="#kontakt">Kontakt</a></li>
+                                    <li>
+                                        <a class="button1" href="/zapytanie"><span>Prośba o darmową wycenę</span></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -98,16 +101,6 @@
                     </div>
                     <div>
                         <p><input type="text" placeholder="adres email" name="email" id="email"/>
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            <select name="size" id="size">
-                                <option value="10">1-10</option>
-                                <option value="25">11-25</option>
-                                <option value="100">26-100</option>
-                                <option value="200">101+</option>
-                            </select>
                         </p>
                     </div>
                     <p><textarea placeholder="wiadomosc" name="message" id="message" rows="12" cols="5"></textarea>

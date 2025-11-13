@@ -103,7 +103,7 @@
                         <p><input type="text" placeholder="adres email" name="email" id="email"/>
                         </p>
                     </div>
-                    <p><textarea placeholder="wiadomosc" name="message" id="message" rows="12" cols="5"></textarea>
+                    <p><textarea placeholder="Wiadomość" name="message" id="message" rows="12" cols="5"></textarea>
                     </p>
                     <div class="buttoncontact">
                         <p>

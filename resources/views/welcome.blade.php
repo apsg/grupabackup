@@ -80,6 +80,60 @@
 
     <!-- one section -->
     <section class="wrapper100percent section">
+        <div class="sectionwrapper" id="menu3"></div>
+        <div class="container">
+            <div class="row">
+                {{--                <div class="col-md-6">--}}
+                {{--                    <br>--}}
+                {{--                    <h3>Powstaliśmy by wspierać firmy</h3>--}}
+                {{--                    <br>--}}
+                {{--                    <p>--}}
+
+                {{--                    </p>--}}
+                {{--                    <ul class="ul-list">--}}
+                {{--                        <li>--}}
+                {{--                            <i class="fa fa-check"></i> Ne nec detracto appellantur--}}
+                {{--                        </li>--}}
+                {{--                        <li>--}}
+                {{--                            <i class="fa fa-check"></i> Aperiam accusamus vel eu--}}
+                {{--                        </li>--}}
+                {{--                        <li>--}}
+                {{--                            <i class="fa fa-check"></i> Nam albucius ponderum rationibu--}}
+                {{--                        </li>--}}
+                {{--                    </ul>--}}
+                {{--                </div>--}}
+                {{--                <div class="col-md-6">--}}
+                {{--                    <img src="images/about.png" alt="">--}}
+                {{--                </div>--}}
+            </div>
+        </div>
+    </section>
+    <!-- one section end -->
+
+    <!-- one section -->
+    <section class="wrapper100percent section-cta"  >
+        <div class="cta-left">
+            <div class="cta-left-inner">
+                <h3>Powstaliśmy by wspierać firmy</h3>
+                <br>
+                <ul>
+                    <li><i class="fa fa-check"></i> przeanalizujemy rynek ubezpieczeń zdrowotnych i życiowych</li>
+                    <li><i class="fa fa-check"></i> dopasujemy zakres ubezpieczenia do Twojej firmy</li>
+                    <li><i class="fa fa-check"></i> będziemy Cię wspierać przez cały okres umowy</li>
+                </ul>
+                <div class="button1">
+                    <a href="{{ url('/zapytanie') }}" class="accent-color-bg">Prośba o darmową wycenę</a>
+                </div>
+            </div>
+        </div>
+        <div class="cta-right">
+            <img src="images/firmowe.webp" alt="">
+        </div>
+    </section>
+    <!-- one section end -->
+
+    <!-- one section -->
+    <section class="wrapper100percent section">
         <div class="sectionwrapper" id="menu2"></div>
         <div class="mainheadlinewrapper">
             <div class="mainheadline">
@@ -242,58 +296,6 @@
     </section>
     <!-- one section end -->
 
-    <!-- one section -->
-    <section class="wrapper100percent section">
-        <div class="sectionwrapper" id="menu3"></div>
-        <div class="container">
-            <div class="row">
-                {{--                <div class="col-md-6">--}}
-                {{--                    <br>--}}
-                {{--                    <h3>Powstaliśmy by wspierać firmy</h3>--}}
-                {{--                    <br>--}}
-                {{--                    <p>--}}
 
-                {{--                    </p>--}}
-                {{--                    <ul class="ul-list">--}}
-                {{--                        <li>--}}
-                {{--                            <i class="fa fa-check"></i> Ne nec detracto appellantur--}}
-                {{--                        </li>--}}
-                {{--                        <li>--}}
-                {{--                            <i class="fa fa-check"></i> Aperiam accusamus vel eu--}}
-                {{--                        </li>--}}
-                {{--                        <li>--}}
-                {{--                            <i class="fa fa-check"></i> Nam albucius ponderum rationibu--}}
-                {{--                        </li>--}}
-                {{--                    </ul>--}}
-                {{--                </div>--}}
-                {{--                <div class="col-md-6">--}}
-                {{--                    <img src="images/about.png" alt="">--}}
-                {{--                </div>--}}
-            </div>
-        </div>
-    </section>
-    <!-- one section end -->
-
-    <!-- one section -->
-    <section class="wrapper100percent section-cta">
-        <div class="cta-left">
-            <div class="cta-left-inner">
-                <h3>Powstaliśmy by wspierać firmy</h3>
-                <br>
-                <ul>
-                    <li><i class="fa fa-check"></i> przeanalizujemy rynek ubezpieczeń zdrowotnych i życiowych</li>
-                    <li><i class="fa fa-check"></i> dopasujemy zakres ubezpieczenia do Twojej firmy</li>
-                    <li><i class="fa fa-check"></i> będziemy Cię wspierać przez cały okres umowy</li>
-                </ul>
-                <div class="button1">
-                    <a href="{{ url('/zapytanie') }}" class="accent-color-bg">Prośba o darmową wycenę</a>
-                </div>
-            </div>
-        </div>
-        <div class="cta-right">
-            <img src="images/firmowe.webp" alt="">
-        </div>
-    </section>
-    <!-- one section end -->
 
 @endsection

@@ -45,7 +45,7 @@
                                 <ul class="nav navbar-nav pull-right">
                                     <li><a href="{{ url('/')  }}">Home</a></li>
                                     {{--                                    <li><a href="{{ url('/ubezpieczenia') }}">Ubezpieczenia</a></li>--}}
-                                    <li><a href="#menu3">O nas</a></li>
+                                    <li><a href="{{ url('/') }}#menu3">O nas</a></li>
                                     <li><a href="{{ url('/kariera') }}">Kariera</a></li>
                                     <li><a href="#kontakt">Kontakt</a></li>
                                     <li>

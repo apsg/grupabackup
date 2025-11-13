@@ -1,0 +1,44 @@
+name: Test and deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@v5.1.0
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.KEY }}
+          ARGS: "-rltgoDzvO"
+          SOURCE: "/"
+          REMOTE_HOST: ${{ vars.HOST }}
+          REMOTE_USER: ${{ vars.USERNAME }}
+          TARGET: ${{ vars.TARGET }}
+          EXCLUDE: "/node_modules/, /.idea/, /.git/, /vendor/, /.github/"
+        with:
+          REMOTE_HOST: ${{ vars.HOST }}
+          REMOTE_USER: ${{ vars.USERNAME }}
+          SSH_PRIVATE_KEY: ${{ secrets.KEY }}
+      - name: Composer and migrations
+        uses: JimCronqvist/action-ssh@master
+        with:
+          hosts: ${{ vars.USERNAME }}@${{ vars.HOST }}
+          privateKey: ${{ secrets.KEY }}
+          command: |
+            cd ${{ vars.TARGET }}
+            php84 composer.phar install --ignore-platform-reqs
+            php84 artisan env:decrypt --key=${{ secrets.ENCRYPT_KEY }} --env=production --force --filename=.env
+            php84 artisan migrate --force
+            php84 artisan cache:clear
+
+

@@ -144,17 +144,17 @@
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/flexslider.js"></script>
-<script src="js/flickity.js"></script>
+{{--<script src="js/flickity.js"></script>--}}
 <script src="js/waypoints.js"></script>
 <script src="js/masonry.js"></script>
-<script src="js/twitter.js"></script>
-<script src="js/countto.js"></script>
+{{--<script src="js/twitter.js"></script>--}}
+{{--<script src="js/countto.js"></script>--}}
 <script src="js/colorbox.js"></script>
 <script src="js/isotope.js"></script>
-<script src="js/retina.js"></script>
+{{--<script src="js/retina.js"></script>--}}
 <script src="js/less.js"></script>
-<script src="js/chart.js"></script>
-<script src="js/chart_init.js"></script>
+{{--<script src="js/chart.js"></script>--}}
+{{--<script src="js/chart_init.js"></script>--}}
 <script src="js/scripts.js"></script>
 
 <!-- BEGIN callpage.io widget -->

@@ -22,7 +22,7 @@
                                         Wciśnij Pomoc i połącz się z nami lub Kup online
                                     </p>
                                     <div class="button1">
-                                        <a href="#" onclick="openCP(event)">Kup online</a>
+                                        <a href="https://sklep.signal-iduna.pl/?&ag_symbol=73098&RauNbr=11731870/P&product_code=PTUR_BP2021">Kup online</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,8 +43,7 @@
                                         Kup online lub skontaktuj się z nami a doradzimy w wyborze pakietu.
                                     </p>
                                     <div class="button1">
-                                        <a href="https://sklep.signal-iduna.pl/?ag_symbol=73098&RauNbr=11731870%2FP&product_code=PNL_NNWI_SZKOLNE">Kup
-                                            online</a>
+                                        <a href="https://sklep.signal-iduna.pl/?&ag_symbol=73098&RauNbr=11731870/P&product_code=PNL_NNWI_SZKOLNE">Kup online</a>
                                     </div>
                                 </div>
                             </div>

@@ -19,3 +19,4 @@ Artisan::command('cpt', function () {
 
 
 })->purpose('Test command');
+

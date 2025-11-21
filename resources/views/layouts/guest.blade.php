@@ -16,6 +16,15 @@
     <link rel="stylesheet" type="text/less" href="css/style.less">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/colorbox.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C32BVF7F4L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-C32BVF7F4L');
+    </script>
 </head>
 <body data-spy="scroll">
 <div id="menu1"></div>

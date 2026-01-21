@@ -20,3 +20,7 @@ Artisan::command('cpt', function () {
 
 })->purpose('Test command');
 
+Artisan::command('test', function () {
+   $string = 'https://www.fly4free.pl/black-friday-week-w-itace-🖤🔥-wycieczki-do-egiptu-na-madere-wyspy-zielonego-przyladka-i-inne-od-1779-pln-🌊🏝️';
+   dd(preg_replace('/[^a-z0-9.\/\:_-]/i','', $string));
+});

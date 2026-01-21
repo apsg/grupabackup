@@ -21,11 +21,10 @@
         <div class="container">
             <div class="row">
                 <div>
-                    5-50
-                    51-100
-                    101-500
-                    500+
-                    ssdsa
+                    email
+                    nazwa firmy
+                    liczba pracowników
+                    zgody
                 </div>
             </div>
         </div>

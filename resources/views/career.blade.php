@@ -70,24 +70,24 @@
 
 
     <!-- one section -->
-    <section class="wrapper100percent section-cta">
-        <div class="cta-left">
-            <div class="cta-left-inner">
-                <h3>You are covered</h3>
-                <br>
-                <p>Lorem ipsum dolor sit amet lore ipsum dolor sit dolor sit amet lore ipsum dolor sit amet
-                    Lorem ipsum dolor sit amet lore ipsum dolor sit dolor sit amet lore ipsum dolor sit amet
-                </p>
-                <p>Lorem ipsum dolor sit amet lore ipsum dolor sit dolor sit amet lore ipsum dolor sit amet
-                </p>
-                <div class="button1">
-                    <a href="">Request a quote</a>
-                </div>
-            </div>
-        </div>
-        <div class="cta-right">
-            <img src="images/ctaimage.jpg" alt="">
-        </div>
-    </section>
+{{--    <section class="wrapper100percent section-cta">--}}
+{{--        <div class="cta-left">--}}
+{{--            <div class="cta-left-inner">--}}
+{{--                <h3>You are covered</h3>--}}
+{{--                <br>--}}
+{{--                <p>Lorem ipsum dolor sit amet lore ipsum dolor sit dolor sit amet lore ipsum dolor sit amet--}}
+{{--                    Lorem ipsum dolor sit amet lore ipsum dolor sit dolor sit amet lore ipsum dolor sit amet--}}
+{{--                </p>--}}
+{{--                <p>Lorem ipsum dolor sit amet lore ipsum dolor sit dolor sit amet lore ipsum dolor sit amet--}}
+{{--                </p>--}}
+{{--                <div class="button1">--}}
+{{--                    <a href="">Request a quote</a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="cta-right">--}}
+{{--            <img src="images/ctaimage.jpg" alt="">--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!-- one section end -->
 @endsection

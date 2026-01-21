@@ -221,7 +221,7 @@
             window.callpage('api.button.autoshow');
         }
     };
-    loadBabel('https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js', function () {
+    loadBabel('https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js', function () {
         return loadWidget(window, document);
     });</script>
 <!-- END callpage.io widget -->

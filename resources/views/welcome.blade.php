@@ -160,7 +160,6 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            No errem ridens eam, nam an veniam nam an veniam equidem ex nec.
                                         </p>
                                         <a href="#" onclick="openCP(event)">
                                             Poznaj szczegóły <i class="fa fa-angle-right"></i>
@@ -186,7 +185,6 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            No errem ridens eam, nam an veniam nam an veniam equidem ex nec.
                                         </p>
                                         <a href="#" onclick="openCP(event)">
                                             Poznaj szczegóły <i class="fa fa-angle-right"></i>
@@ -226,7 +224,6 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            No errem ridens eam, nam an veniam nam an veniam equidem ex nec.
                                         </p>
                                         <a href="#" onclick="openCP(event)">
                                             Poznaj szczegóły <i class="fa fa-angle-right"></i>
@@ -252,7 +249,6 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            No errem ridens eam, nam an veniam nam an veniam equidem ex nec.
                                         </p>
                                         <a href="#" onclick="openCP(event)">
                                             Poznaj szczegóły <i class="fa fa-angle-right"></i>
@@ -277,7 +273,6 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            No errem ridens eam, nam an veniam nam an veniam equidem ex nec.
                                         </p>
                                         <a href="#" onclick="openCP(event)">
                                             Poznaj szczegóły <i class="fa fa-angle-right"></i>

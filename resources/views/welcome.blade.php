@@ -22,7 +22,8 @@
                                         Wciśnij Pomoc i połącz się z nami lub Kup online
                                     </p>
                                     <div class="button1">
-                                        <a href="https://sklep.signal-iduna.pl/?&ag_symbol=73098&RauNbr=11731870/P&product_code=PTUR_BP2021">Kup online</a>
+                                        <a href="https://sklep.signal-iduna.pl/?&ag_symbol=73098&RauNbr=11731870/P&product_code=PTUR_BP2021">Kup
+                                            online</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +44,8 @@
                                         Kup online lub skontaktuj się z nami a doradzimy w wyborze pakietu.
                                     </p>
                                     <div class="button1">
-                                        <a href="https://sklep.signal-iduna.pl/?&ag_symbol=73098&RauNbr=11731870/P&product_code=PNL_NNWI_SZKOLNE">Kup online</a>
+                                        <a href="https://sklep.signal-iduna.pl/?&ag_symbol=73098&RauNbr=11731870/P&product_code=PNL_NNWI_SZKOLNE">Kup
+                                            online</a>
                                     </div>
                                 </div>
                             </div>
@@ -82,35 +84,22 @@
         <div class="sectionwrapper" id="menu3"></div>
         <div class="container">
             <div class="row">
-                {{--                <div class="col-md-6">--}}
-                {{--                    <br>--}}
-                {{--                    <h3>Powstaliśmy by wspierać firmy</h3>--}}
-                {{--                    <br>--}}
-                {{--                    <p>--}}
-
-                {{--                    </p>--}}
-                {{--                    <ul class="ul-list">--}}
-                {{--                        <li>--}}
-                {{--                            <i class="fa fa-check"></i> Ne nec detracto appellantur--}}
-                {{--                        </li>--}}
-                {{--                        <li>--}}
-                {{--                            <i class="fa fa-check"></i> Aperiam accusamus vel eu--}}
-                {{--                        </li>--}}
-                {{--                        <li>--}}
-                {{--                            <i class="fa fa-check"></i> Nam albucius ponderum rationibu--}}
-                {{--                        </li>--}}
-                {{--                    </ul>--}}
-                {{--                </div>--}}
-                {{--                <div class="col-md-6">--}}
-                {{--                    <img src="images/about.png" alt="">--}}
-                {{--                </div>--}}
+                Pomysł Grupy BACKUP zrodził się w 2017 roku z potrzeby wspierania klientów na najwyższym poziomie.
+                Jesteśmy Multiagencją Ubezpieczeniową i pracujemy z najlepszymi agentami. Wybierając Nas masz pewność,
+                że kompleksowo podejdziemy do Twoich potrzeb ubezpieczeniowych i pomożemy Ci w każdej sytuacji.
+                Rozwiązania dostarczamy od Najlepszych Towarzystw w Polsce.Naszym celem nie jest sprzedaż sama w sobie,
+                ale współpraca z Tobą przez cały okres trwania umowy i Twoje zadowolenie.Nie ma znaczenia czy jesteś
+                klientem czy Naszym współpracownikiem. Wspieramy ludzi z potrzeby misji ubezpieczeniowej! Nie musimy być
+                wielką Organizacją, za to jesteśmy merytoryczni i skupieni na człowieku. Sprawdź jak to jest być Naszym
+                klientem lub zacznij z Nami współprace biznesową, dowiesz się więcej co oznacza GRUPA BACKUP.
             </div>
         </div>
+        <div class="sectionwrapper"></div>
     </section>
     <!-- one section end -->
 
     <!-- one section -->
-    <section class="wrapper100percent section-cta"  >
+    <section class="wrapper100percent section-cta">
         <div class="cta-left">
             <div class="cta-left-inner">
                 <h3>Powstaliśmy by wspierać firmy</h3>
@@ -141,6 +130,14 @@
                     Współpracujemy z najlepszymi towarzystwami ubezpieczeniowymi na rynku. Oferujemy szeroki wachlarz
                     produktów ubezpieczeniowych dopasowanych do Twoich potrzeb.
                 </h3>
+
+            </div>
+            <div class="row">
+                @foreach(glob(public_path('images/tu/*')) as $image)
+                    <div class="col-md-3">
+                        <img src="{{ asset('images/tu/' . basename($image)) }}" alt="">
+                    </div>
+                @endforeach
             </div>
         </div>
         <div class="wrapper100percent">
@@ -161,9 +158,9 @@
                                     <li>
                                         <p>
                                         </p>
-{{--                                        <a href="#" onclick="openCP(event)">--}}
-{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
-{{--                                        </a>--}}
+                                        {{--                                        <a href="#" onclick="openCP(event)">--}}
+                                        {{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+                                        {{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -178,7 +175,7 @@
                                     <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                                         <!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                         <path fill="currentColor"
-                                            d="M128 128C92.7 128 64 156.7 64 192L64 448C64 483.3 92.7 512 128 512L144 512L144 128L128 128zM192 128L192 512L448 512L448 128L192 128zM512 512C547.3 512 576 483.3 576 448L576 192C576 156.7 547.3 128 512 128L496 128L496 512L512 512zM288 248C288 239.2 295.2 232 304 232L336 232C344.8 232 352 239.2 352 248L352 288L392 288C400.8 288 408 295.2 408 304L408 336C408 344.8 400.8 352 392 352L352 352L352 392C352 400.8 344.8 408 336 408L304 408C295.2 408 288 400.8 288 392L288 352L248 352C239.2 352 232 344.8 232 336L232 304C232 295.2 239.2 288 248 288L288 288L288 248z"/>
+                                              d="M128 128C92.7 128 64 156.7 64 192L64 448C64 483.3 92.7 512 128 512L144 512L144 128L128 128zM192 128L192 512L448 512L448 128L192 128zM512 512C547.3 512 576 483.3 576 448L576 192C576 156.7 547.3 128 512 128L496 128L496 512L512 512zM288 248C288 239.2 295.2 232 304 232L336 232C344.8 232 352 239.2 352 248L352 288L392 288C400.8 288 408 295.2 408 304L408 336C408 344.8 400.8 352 392 352L352 352L352 392C352 400.8 344.8 408 336 408L304 408C295.2 408 288 400.8 288 392L288 352L248 352C239.2 352 232 344.8 232 336L232 304C232 295.2 239.2 288 248 288L288 288L288 248z"/>
                                     </svg>
                                 </div>
                                 <h3>Zdrowie</h3>
@@ -186,9 +183,9 @@
                                     <li>
                                         <p>
                                         </p>
-{{--                                        <a href="#" onclick="openCP(event)">--}}
-{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
-{{--                                        </a>--}}
+                                        {{--                                        <a href="#" onclick="openCP(event)">--}}
+                                        {{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+                                        {{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -206,9 +203,9 @@
                                         <p>
 
                                         </p>
-{{--                                        <a href="#" onclick="openCP(event)">--}}
-{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
-{{--                                        </a>--}}
+                                        {{--                                        <a href="#" onclick="openCP(event)">--}}
+                                        {{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+                                        {{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -225,9 +222,9 @@
                                     <li>
                                         <p>
                                         </p>
-{{--                                        <a href="#" onclick="openCP(event)">--}}
-{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
-{{--                                        </a>--}}
+                                        {{--                                        <a href="#" onclick="openCP(event)">--}}
+                                        {{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+                                        {{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -250,9 +247,9 @@
                                     <li>
                                         <p>
                                         </p>
-{{--                                        <a href="#" onclick="openCP(event)">--}}
-{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
-{{--                                        </a>--}}
+                                        {{--                                        <a href="#" onclick="openCP(event)">--}}
+                                        {{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+                                        {{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -274,9 +271,9 @@
                                     <li>
                                         <p>
                                         </p>
-{{--                                        <a href="#" onclick="openCP(event)">--}}
-{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
-{{--                                        </a>--}}
+                                        {{--                                        <a href="#" onclick="openCP(event)">--}}
+                                        {{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+                                        {{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -289,7 +286,5 @@
         <!-- container end -->
     </section>
     <!-- one section end -->
-
-
 
 @endsection

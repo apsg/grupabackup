@@ -84,10 +84,10 @@
         <div class="sectionwrapper" id="menu3"></div>
         <div class="container">
             <div class="row">
-                Pomysł Grupy BACKUP zrodził się w 2017 roku z potrzeby wspierania klientów na najwyższym poziomie.
+                <img src="/images/logo.svg" style="padding-right: 30px; padding-bottom: 30px;" /> Pomysł Grupy BACKUP zrodził się w 2017 roku z potrzeby wspierania klientów na najwyższym poziomie.
                 Jesteśmy Multiagencją Ubezpieczeniową i pracujemy z najlepszymi agentami. Wybierając Nas masz pewność,
                 że kompleksowo podejdziemy do Twoich potrzeb ubezpieczeniowych i pomożemy Ci w każdej sytuacji.
-                Rozwiązania dostarczamy od Najlepszych Towarzystw w Polsce.Naszym celem nie jest sprzedaż sama w sobie,
+                Rozwiązania dostarczamy od Najlepszych Towarzystw w Polsce. Naszym celem nie jest sprzedaż sama w sobie,
                 ale współpraca z Tobą przez cały okres trwania umowy i Twoje zadowolenie.Nie ma znaczenia czy jesteś
                 klientem czy Naszym współpracownikiem. Wspieramy ludzi z potrzeby misji ubezpieczeniowej! Nie musimy być
                 wielką Organizacją, za to jesteśmy merytoryczni i skupieni na człowieku. Sprawdź jak to jest być Naszym

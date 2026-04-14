@@ -117,12 +117,13 @@
                         <p><textarea placeholder="Wiadomość" name="message" id="message" rows="12" cols="5"></textarea>
                         </p>
                         <div class="buttoncontact">
-                            <p>
+                            <label>
+                                <input type="checkbox" name="gdpr" id="gdpr" value="1" required/>
                                 Wysłanie formularza kontaktowego jest równoznaczne ze zgodą na przetwarzanie danych
                                 osobowych. Zobacz <a style="font-weight: 700" href="{{ url('/rodo') }}" target="_blank">pełen
                                     regulamin RODO</a>, aby
                                 dowiedzieć się jak przetwarzamy Twoje dane
-                            </p>
+                            </label>
                             <p>
                                 <input type="submit" name="submit" id="submit" value="Wyślij"/>
                             </p>

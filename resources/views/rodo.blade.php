@@ -22,16 +22,15 @@
             <div class="row">
                 <div class="col-md-8">
                     <h3>1. Kto jest administratorem Pani/Pana danych osobowych? W jaki sposób można się skontaktować z
-                        administratorem?</h3>
-
+                        administratorem?
+                    </h3>
                     <p>
-                        Administratorem Pani/Pana danych osobowych jest Szewczuk Sp z o.o. z siedzibą w Białej
-                        Podlaskiej,
-                        ul. Zamkowa 1A/28, 21-500 Biała Podlaska.
+                        Administratorem Pani/Pana danych osobowych jest Grupa Backup Sp z o.o. z siedzibą w Puławach,
+                        ul. Krótka 11, 24-100 Puławy.
                     </p>
                     <p>
                         Może się Pan/Pani kontaktować z nami przesyłając e – mail na adres:
-                        biuro@szewczuk-ubezpieczenia.pl,
+                        biuro@grupabackup.pl,
                         a także za pośrednictwem poczty tradycyjnej, pod wskazanym powyżej adresem naszej siedziby.
                     </p>
                     <h3>
@@ -338,13 +337,9 @@
                         skorzystania z którychkolwiek z powyższych uprawnień, można kontaktować się z nami w sposób
                         wskazany
                         w pkt. 1.
-
                     </p>
-
                 </div>
             </div>
         </div>
     </section>
-    <!-- one section end -->
-
 @endsection

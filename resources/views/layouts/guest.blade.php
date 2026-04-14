@@ -16,15 +16,6 @@
     <link rel="stylesheet" type="text/less" href="css/style.less">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/colorbox.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C32BVF7F4L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-C32BVF7F4L');
-    </script>
 </head>
 <body data-spy="scroll">
 <div id="menu1"></div>
@@ -70,69 +61,137 @@
         <!-- menu end -->
     </div>
 </header>
+@if(flash()->message)
+    <div>
+        {{ flash()->message }}
+    </div>
+@endif
 
 @yield('content')
 
-<!-- one section -->
-<section class="wrapper100percent section3">
-    <div class="left">
-        <div class="left-inner">
-            <div class="address">
-                <h4>Informacje kontaktowe</h4>
-                <p>
-                    Jeśli masz jakieś pytania lub potrzebujesz więcej informacji, skontaktuj się z nami. Jesteśmy
-                    dostępni, aby Ci pomóc.
-                </p>
-                <ul class="ul-list">
-                    <li>
-                        <i class="fa fa-phone"></i> <a href="tel:+48512346736">+48 512 346 736</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope"></i> <a href="mailto:biuro@grupabackup.pl" target="_blank">biuro@grupabackup.pl</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-map-marker"></i> ul. Krótka 11, 24-100 Puławy, Polska
-                    </li>
-                </ul>
+@if(empty($isContactHidden))
+
+    <!-- one section -->
+    <section class="wrapper100percent section3">
+        <div class="left">
+            <div class="left-inner">
+                <div class="address">
+                    <h4>Informacje kontaktowe</h4>
+                    <p>
+                        Jeśli masz jakieś pytania lub potrzebujesz więcej informacji, skontaktuj się z nami. Jesteśmy
+                        dostępni, aby Ci pomóc.
+                    </p>
+                    <h3 style="padding-left: 40px; margin-bottom: 30px; color: #288fc5;">
+                        Grupa Backup
+                    </h3>
+                    <ul class="ul-list">
+                        <li>
+                            <i class="fa fa-phone"></i> <a href="tel:+48512346736">+48 512 346 736</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i> <a href="mailto:biuro@grupabackup.pl" target="_blank">biuro@grupabackup.pl</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i> ul. Krótka 11, 24-100 Puławy, Polska
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="right">
-        <div class="right-inner">
-            <a id="kontakt"></a>
-            <h3>Skontaktuj się z nami</h3>
-            <!-- comment-form -->
-            <form class="wrapper100percent" method="post" action="sendEmail.php">
-                <div id="main">
-                    <div>
-                        <p><input type="text" placeholder="Imię" name="name" id="name"/>
+        <div class="right">
+            <div class="right-inner">
+                <a id="kontakt"></a>
+                <h3>Skontaktuj się z nami</h3>
+                <!-- comment-form -->
+                <form class="wrapper100percent" method="post" action="{{ route('email.send') }}">
+                    @csrf
+                    <div id="main">
+                        <div>
+                            <p><input type="text" placeholder="Imię" name="name" id="name"/>
+                            </p>
+                        </div>
+                        <div>
+                            <p><input type="text" placeholder="adres email" name="email" id="email"/>
+                            </p>
+                        </div>
+                        <p><textarea placeholder="Wiadomość" name="message" id="message" rows="12" cols="5"></textarea>
                         </p>
+                        <div class="buttoncontact">
+                            <p>
+                                Wysłanie formularza kontaktowego jest równoznaczne ze zgodą na przetwarzanie danych
+                                osobowych. Zobacz <a style="font-weight: 700" href="{{ url('/rodo') }}" target="_blank">pełen
+                                    regulamin RODO</a>, aby
+                                dowiedzieć się jak przetwarzamy Twoje dane
+                            </p>
+                            <p>
+                                <input type="submit" name="submit" id="submit" value="Wyślij"/>
+                            </p>
+                        </div>
+                        <ul class="col-sm-12" id="response"></ul>
                     </div>
-                    <div>
-                        <p><input type="text" placeholder="adres email" name="email" id="email"/>
-                        </p>
-                    </div>
-                    <p><textarea placeholder="Wiadomość" name="message" id="message" rows="12" cols="5"></textarea>
-                    </p>
-                    <div class="buttoncontact">
-                        <p>
-                            <input type="submit" name="submit" id="submit" value="Wyślij"/>
-                        </p>
-                    </div>
-                    <ul class="col-sm-12" id="response"></ul>
-                </div>
-            </form>
-            <!-- comment-form-end end -->
+                </form>
+                <!-- comment-form-end end -->
+            </div>
         </div>
-    </div>
-</section>
-<!-- one section end -->
+    </section>
+    <!-- one section end -->
+@endif
 
 <!-- content is above this -->
 <!-- /footer is below this -->
 <footer class="bottom">
     <div class="container">
         <div class="row">
+            <div class="col-md-4 text-center br-blue">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"
+                         style="width: 50px; height: 50px; color: #288fc5;"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/>
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0"/>
+                    </svg>
+                </div>
+                <span style="font-weight: 700; font-size: 1.5rem">Grupa Backup</span><br/>
+                ul. Krótka 11<br/>
+                24-100 Puławy
+            </div>
+            <div class="col-md-4 text-center br-blue">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="icon icon-tabler icons-tabler-outline icon-tabler-phone"
+                         style="width: 50px; height: 50px; color: #288fc5;"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/>
+                    </svg>
+                </div>
+                <span style="font-weight: 700; font-size: 1.5rem">Telefon</span><br/>
+                +48 512 346 736<br/>
+                &nbsp;
+
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="icon icon-tabler icons-tabler-outline icon-tabler-mail"
+                         style="width: 50px; height: 50px; color: #288fc5;"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/>
+                        <path d="M3 7l9 6l9 -6"/>
+                    </svg>
+                </div>
+                <span style="font-weight: 700; font-size: 1.5rem">Email</span><br/>
+                biuro@grupabackup.pl<br/>
+                &nbsp;
+            </div>
+
             <div class="col-md-12">
                 <div class="scrollbutton">
                     <a href="javascript:scrollToTop()" title="go to top"><i class="fa fa-chevron-up"></i></a>
@@ -230,6 +289,7 @@
     function openCP(event) {
         event.preventDefault();
         callpage('api.widget.open');
+        console.log('open');
     }
 </script>
 </body>

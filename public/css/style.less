@@ -131,15 +131,15 @@ ul,
 ol {
     margin: 0 0 27px 0;
     padding: 0;
-    list-style: none;
     line-height: 1.867;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 ul li,
 ol li {
     margin: 0 0 10px 0;
     padding: 0;
-    list-style: none;
 }
 
 h1,
@@ -156,13 +156,13 @@ h6 {
 
 h1,
 h2,
-h3, {
+h3 {
     line-height: 1.1;
 }
 
 h4,
 h5,
-h6, {
+h6 {
     line-height: 1.4;
 }
 
@@ -204,6 +204,8 @@ br {
 }
 
 ul.ul-list {
+    list-style: none;
+
     i {
         color: @first-color;
         padding-right: 10px;
@@ -915,7 +917,7 @@ li.active {
             line-height: 1;
             padding: 15px 22px;
             text-transform: uppercase;
-            background: @first-color;
+            background: @accent-color;
             font-weight: 600;
             .circle;
             color: #fff;
@@ -4281,5 +4283,9 @@ ul.insurance-list {
     margin-bottom: 0px;
 }
 
+
+.br-blue{
+    border-right: 1px solid @first-color2;
+}
 
 /************* tabs end **************/

@@ -115,7 +115,7 @@
             <div class="cta-left-inner">
                 <h3>Powstaliśmy by wspierać firmy</h3>
                 <br>
-                <ul>
+                <ul class="ul-list">
                     <li><i class="fa fa-check"></i> przeanalizujemy rynek ubezpieczeń zdrowotnych i życiowych</li>
                     <li><i class="fa fa-check"></i> dopasujemy zakres ubezpieczenia do Twojej firmy</li>
                     <li><i class="fa fa-check"></i> będziemy Cię wspierać przez cały okres umowy</li>
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="cta-right">
-            <img src="images/firmowe.webp" alt="">
+            <img src="images/biuro.webp" alt="">
         </div>
     </section>
     <!-- one section end -->
@@ -147,7 +147,7 @@
             <div class="row">
                 <div class="services">
                     <!-- one service -->
-                    <div class="one-service color1">
+                    <div class="one-service color1" onclick="openCP(event)" style="cursor: pointer">
                         <ul>
                             <li>
                                 <div style="display: inline-block; float: left; margin-right: 15px;">
@@ -161,9 +161,9 @@
                                     <li>
                                         <p>
                                         </p>
-                                        <a href="#" onclick="openCP(event)">
-                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>
-                                        </a>
+{{--                                        <a href="#" onclick="openCP(event)">--}}
+{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+{{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -171,7 +171,7 @@
                     </div>
                     <!-- one service end -->
                     <!-- one service -->
-                    <div class="one-service color2">
+                    <div class="one-service color2" onclick="openCP(event)" style="cursor: pointer">
                         <ul>
                             <li>
                                 <div style="display: inline-block; float: left; margin-right: 15px;">
@@ -186,9 +186,9 @@
                                     <li>
                                         <p>
                                         </p>
-                                        <a href="#" onclick="openCP(event)">
-                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>
-                                        </a>
+{{--                                        <a href="#" onclick="openCP(event)">--}}
+{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+{{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -196,7 +196,7 @@
                     </div>
                     <!-- one service end -->
                     <!-- one service -->
-                    <div class="one-service color3">
+                    <div class="one-service color3" onclick="openCP(event)" style="cursor: pointer">
                         <ul>
                             <li>
                                 <img src="images/icon-home.png" alt="">
@@ -206,9 +206,9 @@
                                         <p>
 
                                         </p>
-                                        <a href="#" onclick="openCP(event)">
-                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>
-                                        </a>
+{{--                                        <a href="#" onclick="openCP(event)">--}}
+{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+{{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -216,7 +216,7 @@
                     </div>
                     <!-- one service end -->
                     <!-- one service -->
-                    <div class="one-service color4">
+                    <div class="one-service color4" onclick="openCP(event)" style="cursor: pointer">
                         <ul>
                             <li>
                                 <img src="images/icon-travel.png" alt="">
@@ -225,9 +225,9 @@
                                     <li>
                                         <p>
                                         </p>
-                                        <a href="#" onclick="openCP(event)">
-                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>
-                                        </a>
+{{--                                        <a href="#" onclick="openCP(event)">--}}
+{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+{{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -235,7 +235,7 @@
                     </div>
                     <!-- one service end -->
                     <!-- one service -->
-                    <div class="one-service color5">
+                    <div class="one-service color5" onclick="openCP(event)" style="cursor: pointer">
                         <ul>
                             <li>
                                 <div style="display: inline-block; float: left; margin-right: 15px;">
@@ -250,9 +250,9 @@
                                     <li>
                                         <p>
                                         </p>
-                                        <a href="#" onclick="openCP(event)">
-                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>
-                                        </a>
+{{--                                        <a href="#" onclick="openCP(event)">--}}
+{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+{{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>
@@ -260,7 +260,7 @@
                     </div>
                     <!-- one service end -->
                     <!-- one service -->
-                    <div class="one-service color6">
+                    <div class="one-service color6" onclick="openCP(event)" style="cursor: pointer">
                         <ul>
                             <li>
                                 <div style="display: inline-block; float: left; margin-right: 15px;">
@@ -274,9 +274,9 @@
                                     <li>
                                         <p>
                                         </p>
-                                        <a href="#" onclick="openCP(event)">
-                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>
-                                        </a>
+{{--                                        <a href="#" onclick="openCP(event)">--}}
+{{--                                            Poznaj szczegóły <i class="fa fa-angle-right"></i>--}}
+{{--                                        </a>--}}
                                     </li>
                                 </ul>
                             </li>

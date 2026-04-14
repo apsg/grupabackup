@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b14a1cd1d0a7149bca6c5c3620e7b39",
+    "content-hash": "5287fdac81e0ecf6694d297a14177c44",
     "packages": [
         {
             "name": "brick/math",
@@ -65,66 +65,6 @@
                 }
             ],
             "time": "2025-08-29T12:40:03+00:00"
-        },
-        {
-            "name": "callpage/callpage-sdk",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/home/gacek/dev/callpage-sdk",
-                "reference": "77114981dc670c784382825bce018eaaa726f4d0"
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.10",
-                "php": "^8.4"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.0",
-                "pestphp/pest": "^4.0",
-                "spatie/ray": "^1.28"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CallPage\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "CallPage\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ],
-                "format": [
-                    "vendor/bin/pint"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "CallPage Team",
-                    "email": "dev@callpage.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP wrapper for CallPage REST API",
-            "homepage": "https://github.com/callpage/callpage-sdk",
-            "keywords": [
-                "CallPage",
-                "callpage-sdk"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -3338,6 +3278,67 @@
                 "source": "https://github.com/ramsey/uuid/tree/4.9.1"
             },
             "time": "2025-09-04T20:59:21+00:00"
+        },
+        {
+            "name": "spatie/laravel-flash",
+            "version": "1.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-flash.git",
+                "reference": "3cbb476c455ee4c8ce7048398d0aa6112837cd9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-flash/zipball/3cbb476c455ee4c8ce7048398d0aa6112837cd9e",
+                "reference": "3cbb476c455ee4c8ce7048398d0aa6112837cd9e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/session": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.23|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.4|^10.5|^11.5.3|^12.5.12"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Spatie\\Flash\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A lightweight package to flash messages",
+            "homepage": "https://github.com/spatie/laravel-flash",
+            "keywords": [
+                "laravel-flash",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-flash/issues",
+                "source": "https://github.com/spatie/laravel-flash/tree/1.10.2"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                }
+            ],
+            "time": "2026-02-21T21:49:50+00:00"
         },
         {
             "name": "symfony/clock",
@@ -9467,9 +9468,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "callpage/callpage-sdk": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

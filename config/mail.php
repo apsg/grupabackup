@@ -16,6 +16,8 @@ return [
 
     'default' => env('MAIL_MAILER', 'log'),
 
+    'contact' => env('MAIL_CONTACT', 'biuro@grupabackup.pl'),
+
     /*
     |--------------------------------------------------------------------------
     | Mailer Configurations

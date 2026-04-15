@@ -205,7 +205,6 @@
         </div>
     </div>
 </footer>
-@vite(['resources/js/app.js'])
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.js"></script>

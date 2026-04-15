@@ -91,10 +91,6 @@
         <div class="container">
             <div class="row">
                 <div>
-                    email
-                    nazwa firmy
-                    liczba pracowników
-                    zgody
                 </div>
             </div>
         </div>

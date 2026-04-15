@@ -107,11 +107,15 @@
                     @csrf
                     <div id="main">
                         <div>
-                            <p><input type="text" placeholder="Imię" name="name" id="name"/>
+                            <p><input type="text" placeholder="Imię i nazwisko" name="name" id="name"/>
                             </p>
                         </div>
                         <div>
                             <p><input type="text" placeholder="adres email" name="email" id="email"/>
+                            </p>
+                        </div>
+                        <div>
+                            <p><input type="text" placeholder="telefon" name="phone" id="phone"/>
                             </p>
                         </div>
                         <p><textarea placeholder="Wiadomość" name="message" id="message" rows="12" cols="5"></textarea>
@@ -201,7 +205,7 @@
         </div>
     </div>
 </footer>
-
+@vite(['resources/js/app.js'])
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.js"></script>

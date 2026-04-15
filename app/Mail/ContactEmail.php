@@ -14,12 +14,14 @@ class ContactEmail extends Mailable
     public string $name;
     public string $email;
     public string $message;
+    public ?string $phone;
 
-    public function __construct(string $name, string $email, string $message)
+    public function __construct(string $name, string $email, string $message, string $phone = null)
     {
         $this->name = $name;
         $this->email = $email;
         $this->message = $message;
+        $this->phone = $phone;
     }
 
     public function envelope(): Envelope

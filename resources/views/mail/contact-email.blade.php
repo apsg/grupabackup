@@ -5,6 +5,8 @@ Imię: {{$name}}
 
 Email: {{ $email }}
 
+Telefon: {{ $phone }}
+
 ### Treść wiadomości:
 
 {{ str_replace(PHP_EOL, PHP_EOL.PHP_EOL, $message) }}

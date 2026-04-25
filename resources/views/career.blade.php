@@ -49,7 +49,6 @@
                         <li>Doświadczenia w zakresie sprzedaży ubezpieczeń życiowych, zdrowotnych, grupowych i
                             turystycznych mile widziane
                         </li>
-                        <li>Bardzo dobra znajomość języka angielskiego.</li>
                     </ul>
 
                    <h4> Zaaplikuj poprzez wysłanie swojego CV na nasz adres: kadry@grupabackup.pl</h4>

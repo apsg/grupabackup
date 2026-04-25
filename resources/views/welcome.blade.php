@@ -124,7 +124,6 @@
                 <h3>
                     Współpracujemy z najlepszymi towarzystwami ubezpieczeniowymi na rynku.
                 </h3>
-
             </div>
             <div class="row mx-auto" style="max-width: 66%; margin: 0 auto">
                 @foreach(glob(public_path('images/tu/*')) as $image)
@@ -132,6 +131,12 @@
                         <img src="{{ asset('images/tu/' . basename($image)) }}" alt="">
                     </div>
                 @endforeach
+            </div>
+        </div>
+
+        <div class="mainheadlinewrapper " style="margin-top: 50px">
+            <div class="mainheadline">
+                <h2>Nasza oferta</h2>
             </div>
         </div>
         <div class="wrapper100percent">
